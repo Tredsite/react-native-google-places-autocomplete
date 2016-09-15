@@ -203,7 +203,7 @@ const GooglePlacesAutocomplete = React.createClass({
         this._disableRowLoaders();
         alert(error.message);
       },
-      {enableHighAccuracy: true, timeout: 20000, maximumAge: 1000}
+      {timeout: 20000, maximumAge: 1000}
     );
   },
 
